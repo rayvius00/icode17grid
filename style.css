@@ -1,0 +1,131 @@
+body {
+    display: grid;
+    place-content:center;
+    min-height: 100vh;
+    background-color: rgb(231, 226, 252);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 370px 390px 370px ;
+}
+
+.container .box-1 {
+    margin-right: 20px;
+    border: 1px ;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(148, 123, 159);
+}
+
+.container .photo {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.container .box {
+    padding: 0px 30px 20px 30px;
+}
+
+.container .info .title {
+    font-family: Georgia;
+    font-size: 30px;
+    color: rgb(67, 56, 98);
+}
+
+.container .info .subtitle {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    color: rgb(93, 96, 111);
+}
+
+.container .box .acc {
+    display: grid;
+    grid-template-rows:30px 30px 30px;
+}
+
+.container .box .acc img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.container .box .acc .name {
+   margin-bottom: 10px;
+   margin-top: 10px;
+   margin-right: 200px;
+}
+
+.container .box .acc .name h4 {
+    margin-bottom: 0px;
+    margin-top: 23px;
+    font-size: 15px;
+    color: rgb(67, 56, 98);
+    font-family: Georgia;
+}
+
+.container .box .acc .name p {
+    margin: 0px;
+    color: rgb(93, 96, 111);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .box-1 .box .acc .date {
+    color: rgb(93, 96, 111);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 250px;
+}
+
+.container .box-2 {
+    border: 1px ;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(140, 121, 148);
+}
+
+.container .box-2 .box .acc .date {
+    color: rgb(93, 96, 111);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 250px;
+}
+
+.container .box-3 {
+    border: 1px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(140, 121, 148);
+}
+
+.container .box .acc .date {
+    color: rgb(93, 96, 111);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 250px;
+}
+hr {
+    border: 1px solid rgb(212, 212, 212);
+}
+
+.container .box-2 .new {
+    position: absolute;
+    border: 1px solid rgb(255, 79, 158);
+    background-color: rgb(255, 79, 158);
+    color: white;
+    font-family: sans-serif;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 7px;
+    box-shadow: 0px 1px 2px rgb(255, 79, 158);
+    top: 60px;
+    left: 600px;
+}
